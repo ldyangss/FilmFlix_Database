@@ -29,7 +29,7 @@ def report_subMenu():
         print(reportChoices[1])
 
 
-        options = input("Enter an option from the report sub menu choices above: ") #1/2/3
+        options = input("Enter an option from the report sub menu choices above: ")
 
         if options not in optionsList:
             print(f"{options} is not a valid choice in the reports sub menu!")
